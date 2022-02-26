@@ -1,8 +1,8 @@
   param(
-    [alias("Client")][string]$c="192.168.2.23",
+    [alias("Client")][string]$c="",
     [alias("Listen")][switch]$l=$False,
-    [alias("Port")][Parameter(Position=-1)][string]$p="4444",
-    [alias("Execute")][string]$e="cmd",
+    [alias("Port")][Parameter(Position=-1)][string]$p="",
+    [alias("Execute")][string]$e="",
     [alias("ExecutePowershell")][switch]$ep=$False,
     [alias("Relay")][string]$r="",
     [alias("UDP")][switch]$u=$False,
